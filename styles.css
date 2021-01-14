@@ -3,5 +3,9 @@ h1 {
 }
 
 .mainContainer {
+	max-width: 900px;
+	margin: 25px auto;
+	border: 1px solid black;
+	padding: 15px;
 	display: grid;
 }
