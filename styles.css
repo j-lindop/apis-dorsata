@@ -2,10 +2,18 @@ h1 {
 	font-size: 44px;
 }
 
+header {
+	font-size: 50px;
+}
+
 .mainContainer {
 	max-width: 900px;
 	margin: 25px auto;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+}
+
+.item {
 	border: 1px solid black;
 	padding: 15px;
-	display: grid;
 }
