@@ -1,19 +1,25 @@
+.overall {
+	background: grey;
+}
 h1 {
 	font-size: 44px;
 }
-
 header {
 	font-size: 50px;
 }
-
 .mainContainer {
 	max-width: 900px;
 	margin: 25px auto;
+	background: white;
+}
+.mainBox {
 	display: grid;
 	grid-template-columns: 300px 300px 300px;
+	max-width: 900px;
+	margin: 25px auto;
+	border: 1px solid black;
 }
-
-.item {
+.boxItem {
 	border: 1px solid black;
 	padding: 15px;
 }
