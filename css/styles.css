@@ -1,5 +1,5 @@
 .overall {
-	background: grey;
+	/*background: grey;*/
 }
 h1 {
 	font-size: 44px;
@@ -9,6 +9,7 @@ header {
 }
 .mainContainer {
 	max-width: 900px;
+	width: 100%;
 	margin: 25px auto;
 	background: white;
 }
