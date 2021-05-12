@@ -52,4 +52,6 @@ table {
 
 a {
 	text-decoration: none;
+	display: block;
+	height: 400px;
 }
